@@ -4,7 +4,7 @@ Ofrecemos una amplia variedad de cómics: estadounidenses, europeos, manga e his
 
 Dirigido a dos públicos: el experto en cómics que ya tiene conocimiento y sabe lo que quiere adquirir, y al público principiante que ve una oportunidad para descubrir nuevos títulos. Estos públicos están compuestos tanto por adolescentes como por adultos. También hay una variedad seleccionada de cómics infantiles, ideal para los primeros lectores.
 
-Somos Iván y Laura.
+Somos Iván y Laura
 
 Mi nombre es Iván, trabajo en plataformas y quiero pasar al mundo de la programación!
 Soy Laura, me gusta el cine y ver series, trabajo en el área de contenido y quiero ser programadora.
@@ -19,7 +19,7 @@ Sitios de referencia:
 
 Estos sitios fueron elegidos tanto por el prestigio de las empresas como por los diseños de los sitios web, destacando la variedad de componentes e ideas.
 
-Wireframes
+Wireframes:
 
 Home https://wireframe.cc/qi115q
 Producto https://wireframe.cc/pro/pp/5349d8ff5507069
@@ -28,4 +28,10 @@ Registro
 Login
 
 Trello https://trello.com/b/MFzpn5y3/proyecto-integrador
-GitHub  https://github.com/myxbam/grupo-1
+GitHub https://github.com/myxbam/grupo-1
+
+Integrantes:
+
+Iván Benavento
+Laura Toranzos
+Maximiliano Cejas
