@@ -16,6 +16,7 @@ Sitios de referencia:
 3) Meridiana Comics: https://www.meridianacomics.com/
 4) La Comiquería: https://www.lacomiqueria.com.ar/
 5) La Revistería: https://www.larevisteriacomics.com/
+6) Elektra Comics: https://www.elektracomics.com.ar/
 
 Estos sitios fueron elegidos tanto por el prestigio de las empresas como por los diseños de los sitios web, destacando la variedad de componentes e ideas.
 

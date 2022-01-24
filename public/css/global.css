@@ -1,5 +1,9 @@
 @import url(header.css);
-@import url(features.css);
+@import url(products.css);
+@import url(testimonial.css);
+@import url(offer.css);
+@import url(brands.css);
+@import url(footer.css);
 
 *{
     margin: 0;

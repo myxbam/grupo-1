@@ -23,15 +23,9 @@ nav ul li{
     margin-right: 20px;
 }
 
-.icon{
-    margin: 10px;
-}
-
 a{
     text-decoration: none;
     color: #000000;
-    font-size: 20px;
-    margin: 5px
 }
 
 p{
@@ -59,7 +53,7 @@ p{
 
 .col-2 img{
     max-width: 100%;
-    padding: 10px 0;
+    padding: 50px 0;
 }
 
 .col-2 h1{
@@ -88,4 +82,23 @@ p{
 
 .header .row{
     margin-top: 70px;
+}
+
+.header img{
+    margin-right: 20px;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+    }
 }
