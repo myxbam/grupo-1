@@ -5,6 +5,7 @@
 @import url(brands.css);
 @import url(footer.css);
 @import url(products.css);
+@import url(details.css);
 
 *{
     margin: 0;

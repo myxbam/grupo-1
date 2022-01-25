@@ -15,14 +15,59 @@ app.get('/products', (req,res)=>{
     res.sendFile(__dirname + '/views/allProducts.html');
 });
 
-app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/index.html');
+app.get('/kingdom', (req,res)=>{
+    res.sendFile(__dirname + '/views/kingdom.html');
 });
 
-app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/index.html');
+app.get('/death-note', (req,res)=>{
+    res.sendFile(__dirname + '/views/death-note.html');
 });
 
-app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/index.html');
+app.get('/castlevania', (req,res)=>{
+    res.sendFile(__dirname + '/views/castlevania.html');
 });
+
+app.get('/v-de-vendetta', (req,res)=>{
+    res.sendFile(__dirname + '/views/v-de-vendetta.html');
+});
+
+app.get('/evangelion', (req,res)=>{
+    res.sendFile(__dirname + '/views/evangelion.html');
+});
+
+app.get('/watchmen', (req,res)=>{
+    res.sendFile(__dirname + '/views/watchmen.html');
+});
+
+app.get('/sakuracc', (req,res)=>{
+    res.sendFile(__dirname + '/views/sakuracc.html');
+});
+
+app.get('/spawn', (req,res)=>{
+    res.sendFile(__dirname + '/views/spawn.html');
+});
+
+app.get('/invincible', (req,res)=>{
+    res.sendFile(__dirname + '/views/invincible.html');
+});
+
+app.get('/attack-on-titan', (req,res)=>{
+    res.sendFile(__dirname + '/views/attack-on-titan.html');
+});
+
+app.get('/hellsing', (req,res)=>{
+    res.sendFile(__dirname + '/views/hellsing.html');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
