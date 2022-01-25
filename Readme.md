@@ -25,8 +25,8 @@ Wireframes:
 Home https://wireframe.cc/qi115q
 Producto https://wireframe.cc/pro/pp/5349d8ff5507069
 Carrito https://wireframe.cc/pro/pp/ea9907a40507065
-Registro
-Login
+Registro https://wireframe.cc/dHn74B
+Login https://wireframe.cc/jUOWvu
 
 Trello https://trello.com/b/MFzpn5y3/proyecto-integrador
 GitHub https://github.com/myxbam/grupo-1

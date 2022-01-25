@@ -10,3 +10,19 @@ app.listen(3000, ()=>{
 app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/index.html');
 });
+
+app.get('/products', (req,res)=>{
+    res.sendFile(__dirname + '/views/allProducts.html');
+});
+
+app.get('/', (req,res)=>{
+    res.sendFile(__dirname + '/views/index.html');
+});
+
+app.get('/', (req,res)=>{
+    res.sendFile(__dirname + '/views/index.html');
+});
+
+app.get('/', (req,res)=>{
+    res.sendFile(__dirname + '/views/index.html');
+});
