@@ -59,6 +59,10 @@ app.get('/hellsing', (req,res)=>{
     res.sendFile(__dirname + '/views/hellsing.html');
 });
 
+app.get('/spiderman', (req,res)=>{
+    res.sendFile(__dirname + '/views/spiderman.html');
+});
+
 
 
 
