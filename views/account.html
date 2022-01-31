@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <title>AstroComics | Comic Store</title>
+
+</head>
+
+<body>
+
+<!-- Header -->
+    <div class="container">
+
+        <!--Navigation Bar-->
+        <div class="navbar">
+            <div class="logo">
+                <!-- <img src="img/astrocomics-logo.png" alt="AstroComics logo" width="125"> -->
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="products">PRODUCTOS</a></li>
+                    <li><a href="">NOSOTROS</a></li>
+                </ul>
+            </nav>
+            <!-- <img class="icon" src="img/contact.svg" alt="Contact icon" width="30px" height="30px">
+            <img class="icon" src="img/user.svg" alt="User icon" width="30px" height="30px"> -->
+            <img class="icon" src="img/cart.svg" alt="Cart icon" width="30px" height="30px">
+
+            <img src="img/menu.svg" alt="Menu icon" width="30px" height="30px" class="menu-icon" onclick="menuToggle()">
+        
+        </div>
+    </div>
+
+<!-- Account -->
+<div class="account">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-2">
+                <img src="img/banner-legospider.png" alt="" width="100%">
+            </div>
+
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>
+                        <hr id="indicator">
+                    </div>
+
+                    <!-- Login Form -->
+                    <form id="loginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="dsa">Forgot password</a>
+                    </form>
+
+                    <!-- Register Form -->
+                    <form id="registerForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="app-logo">
+                    <img src="img/brand-placeholder.png" alt="">
+                    <img src="img/brand-placeholder.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/brand-placeholder.png" alt="">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>Productos</li>
+                    <li>Mi Cuenta</li>
+                    <li>Carrito</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Nosotros</h3>
+                <ul>
+                    <li>Iván</li>
+                    <li>Laura</li>
+                    <li>Maxi</li>
+                    <li>asdfg</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Chorizo</p>
+    </div>
+</div>
+
+<!-- Menu Toggle -->
+<script>
+    var menuItems = document.getElementById("menuItems");
+    
+    menuItems.style.maxHeight = "0px";
+
+    function menuToggle(){
+        if(menuItems.style.maxHeight == "0px"){
+            menuItems.style.maxHeight = "200px";
+        } 
+        else{
+            menuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+<!-- Toogle Form -->
+<script>
+
+    var loginForm = document.getElementById("loginForm")
+    var registerform = document.getElementById("registerForm")
+    var indicator = document.getElementById("indicator")
+
+    function register(){
+        registerForm.style.transform = "translateX(0px)";
+        loginForm.style.transform = "translateX(0px)";
+        indicator.style.transform = "translateX(100px)";
+    }
+
+    function login(){
+        registerForm.style.transform = "translateX(300px)";
+        loginForm.style.transform = "translateX(300px)";
+        indicator.style.transform = "translateX(0px)";
+    }
+
+</script>
+
+</body>
+</html>

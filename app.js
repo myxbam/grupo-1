@@ -12,7 +12,7 @@ app.get('/', (req,res)=>{
 });
 
 app.get('/products', (req,res)=>{
-    res.sendFile(__dirname + '/views/allProducts.html');
+    res.sendFile(__dirname + '/views/all-products.html');
 });
 
 app.get('/kingdom', (req,res)=>{
@@ -63,15 +63,10 @@ app.get('/spiderman', (req,res)=>{
     res.sendFile(__dirname + '/views/spiderman.html');
 });
 
+app.get('/product-cart', (req,res)=>{
+    res.sendFile(__dirname + '/views/product-cart.html');
+});
 
-
-
-
-
-
-
-
-
-
-
-
+app.get('/account', (req,res)=>{
+    res.sendFile(__dirname + '/views/account.html');
+});
