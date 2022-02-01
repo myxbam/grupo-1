@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
-    <title>Carrito | AstroComics | Comic Store</title>
+    <title>AstroComics | Comic Store</title>
 
 </head>
 
@@ -21,7 +21,7 @@
 <!-- Header -->
     <div class="container">
 
-        <!-- Navigation Bar -->
+        <!--Navigation Bar-->
         <div class="navbar">
             <div class="logo">
                 <a href="/"><img src="img/astrocomics.png" alt="AstroComics logo" width="125"></a>
@@ -29,96 +29,53 @@
             <nav>
                 <ul id="menuItems">
                     <li><a href="/products">PRODUCTOS</a></li>
-                    <li><a href="/about-us">NOSOTROS</a></li>
+                    <li><a href="#">NOSOTROS</a></li>
                 </ul>
             </nav>
             <!-- <img class="icon" src="img/contact.svg" alt="Contact icon" width="30px" height="30px">
             <img class="icon" src="img/user.svg" alt="User icon" width="30px" height="30px"> -->
-            <a href="#"><img class="icon" src="img/cart.svg" alt="Cart icon" width="30px" height="30px"></a>
+            <a href="/product-cart"><img class="icon" src="img/cart.svg" alt="Cart icon" width="30px" height="30px"></a>
 
             <img src="img/menu.svg" alt="Menu icon" width="30px" height="30px" class="menu-icon" onclick="menuToggle()">
         
         </div>
     </div>
 
-<!-- Cart Item Details -->
-<div class="small-container cart-page">
-    <table>
-        <tr>
-            <th>Producto</th>
-            <th>Cantidad</th>
-            <th>Subtotal</th>
-        </tr>
+<!--Featured Categories-->
+<div class="categories">
+    <div class="small-container">
 
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="img/product-small.png" alt="">
-                    <div>
-                        <p>Product name</p>
-                        <small>Price $50</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>$50</td>
-        </tr>
-        
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="img/product-small.png" alt="">
-                    <div>
-                        <p>Product name</p>
-                        <small>Price $50</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>$50</td>
-        </tr>
+        <div class="row row-2">
+            <h2>Nosotros</h2>
+        </div>
 
-        <tr>
-            <td>
-                <div class="cart-info">
-                    <img src="img/product-small.png" alt="">
-                    <div>
-                        <p>Product name</p>
-                        <small>Price $50</small>
-                        <br>
-                        <a href="">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td><input type="number" value="1"></td>
-            <td>$50</td>
-        </tr>
+    <div class="row">
 
-    </table>
+        <!-- IVAN -->
+        <div class="col-3">
+            <img src="img/kingdom-come.jpg" alt="Kingdom Come cover">
+            <h4>Cocomiel</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nemo.</p>
+        </div>
 
-    <div class="total-price">
-        <table>
-            <tr>
-                <td>Subtotal</td>
-                <td>$30</td>
-            </tr>
+        <!-- LAU -->
+        <div class="col-3">
+            <img src="img/death-note.jpg" alt="Death Note cover">
+            <h4>Cocomiel</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nemo.</p>
+        </div>
 
-            <tr>
-                <td>Tax</td>
-                <td>$33</td>
-            </tr>
+        <!-- MATI -->
+        <div class="col-3">
+            <img src="img/castlevania.jpg" alt="Castlevania cover">
+            <h4>Cocomiel</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nemo.</p>
+        </div>
 
-            <tr>
-                <td>Total</td>
-                <td>$76</td>
-            </tr>
-        </table>
+    </div>
     </div>
 </div>
+
 
 <!-- Footer -->
 <div class="footer">
@@ -173,6 +130,27 @@
             menuItems.style.maxHeight = "0px";
         }
     }
+</script>
+
+<!-- Toogle Form -->
+<script>
+
+    var loginForm = document.getElementById("loginForm")
+    var registerform = document.getElementById("registerForm")
+    var indicator = document.getElementById("indicator")
+
+    function register(){
+        registerForm.style.transform = "translateX(0px)";
+        loginForm.style.transform = "translateX(0px)";
+        indicator.style.transform = "translateX(100px)";
+    }
+
+    function login(){
+        registerForm.style.transform = "translateX(300px)";
+        loginForm.style.transform = "translateX(300px)";
+        indicator.style.transform = "translateX(0px)";
+    }
+
 </script>
 
 </body>

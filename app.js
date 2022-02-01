@@ -70,3 +70,7 @@ app.get('/product-cart', (req,res)=>{
 app.get('/account', (req,res)=>{
     res.sendFile(__dirname + '/views/account.html');
 });
+
+app.get('/about-us', (req,res)=>{
+    res.sendFile(__dirname + '/views/about-us.html');
+});

@@ -28,7 +28,7 @@
     padding-left: 10px;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid ##013668;
+    border: 1px solid #013668;
 }
 
 input:focus{
@@ -36,7 +36,7 @@ input:focus{
 }
 
 .single-product .fas{
-    color: ##013668;
+    color: #013668;
     margin-left: 10px;
 }
 
